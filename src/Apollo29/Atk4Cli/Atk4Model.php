@@ -3,8 +3,8 @@
 namespace Apollo29\Atk4Cli;
 
 use Apollo29\Atk4Cli\Command\Add;
+use Apollo29\Atk4Cli\Command\Tables;
 use SimpleCli\SimpleCli;
-use SimpleCli\Widget\Table;
 
 class Atk4Model extends SimpleCli
 {
@@ -12,7 +12,7 @@ class Atk4Model extends SimpleCli
     {
         return [
             'add' => Add::class,
-            'list' => Table::class,
+            'tables' => Tables::class,
         ];
     }
 
