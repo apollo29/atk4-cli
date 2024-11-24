@@ -7,7 +7,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Apollo29\\Atk4Cli\\": "src/"
+            "Apollo29\\": "src/Apollo29/"
         }
     },
     "authors": [
@@ -15,5 +15,8 @@
             "name": "Thomas D'Ascoli",
             "email": "contact@apollo29.com"
         }
+    ],
+    "bin": [
+        "bin/atk4-model"
     ]
 }
