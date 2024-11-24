@@ -1,0 +1,19 @@
+{
+    "name": "apollo29/atk4-cli",
+    "type": "project",
+    "require": {
+        "simple-cli/simple-cli": "^2.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Apollo29\\Atk4Cli\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Thomas D'Ascoli",
+            "email": "contact@apollo29.com"
+        }
+    ]
+}
